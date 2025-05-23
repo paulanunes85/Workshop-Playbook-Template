@@ -1,0 +1,175 @@
+{
+  "title": "Workshop Básico - Exemplo",
+  "description": "Template de exemplo para workshops básicos usando tecnologias web",
+  "version": "1.0.0",
+  "author": {
+    "name": "Seu Nome",
+    "email": "seu.email@exemplo.com",
+    "url": "https://seusite.com"
+  },
+  "metadata": {
+    "duration": "3-4 horas",
+    "difficulty": "Básico",
+    "target_audience": "Desenvolvedores iniciantes a intermediários",
+    "max_participants": 20,
+    "language": "pt-BR",
+    "tags": ["básico", "web", "javascript", "html", "css"]
+  },
+  "prerequisites": [
+    "Conhecimento básico de HTML",
+    "Familiaridade com conceitos de programação",
+    "Computador com acesso à internet",
+    "Editor de código (VS Code recomendado)"
+  ],
+  "learning_objectives": [
+    "Entender os conceitos fundamentais da tecnologia",
+    "Configurar ambiente de desenvolvimento",
+    "Criar primeiro projeto prático",
+    "Aplicar melhores práticas básicas",
+    "Resolver problemas comuns"
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introdução e Conceitos",
+      "description": "Visão geral e conceitos fundamentais",
+      "duration": "45 min",
+      "type": "teoria",
+      "file": "modules/01-introducao.md",
+      "resources": [
+        "resources/slides-introducao.pdf",
+        "resources/links-uteis.md"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Configuração do Ambiente",
+      "description": "Setup do ambiente de desenvolvimento",
+      "duration": "30 min",
+      "type": "prática",
+      "file": "modules/02-setup.md",
+      "resources": [
+        "resources/setup-guide.md",
+        "resources/troubleshooting.md"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Primeiro Projeto",
+      "description": "Criando e executando primeiro projeto",
+      "duration": "60 min",
+      "type": "prática",
+      "file": "modules/03-primeiro-projeto.md",
+      "exercises": [
+        "exercises/exercise-01",
+        "exercises/exercise-02"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Melhores Práticas",
+      "description": "Boas práticas e otimizações",
+      "duration": "45 min",
+      "type": "teoria-prática",
+      "file": "modules/04-melhores-praticas.md",
+      "resources": [
+        "resources/cheat-sheet.md",
+        "resources/referencias.md"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Projeto Final",
+      "description": "Desenvolvimento de projeto integrador",
+      "duration": "90 min",
+      "type": "projeto",
+      "file": "modules/05-projeto-final.md",
+      "exercises": [
+        "exercises/final-project"
+      ]
+    }
+  ],
+  "resources": {
+    "required_software": [
+      {
+        "name": "VS Code",
+        "url": "https://code.visualstudio.com/",
+        "version": "latest",
+        "description": "Editor de código recomendado"
+      },
+      {
+        "name": "Node.js",
+        "url": "https://nodejs.org/",
+        "version": "18+",
+        "description": "Runtime JavaScript"
+      },
+      {
+        "name": "Git",
+        "url": "https://git-scm.com/",
+        "version": "latest",
+        "description": "Controle de versão"
+      }
+    ],
+    "optional_software": [
+      {
+        "name": "Postman",
+        "url": "https://www.postman.com/",
+        "description": "Teste de APIs"
+      }
+    ],
+    "online_resources": [
+      {
+        "title": "Documentação Oficial",
+        "url": "https://docs.exemplo.com",
+        "type": "documentation"
+      },
+      {
+        "title": "Tutorial Interativo",
+        "url": "https://tutorial.exemplo.com",
+        "type": "tutorial"
+      },
+      {
+        "title": "Comunidade",
+        "url": "https://forum.exemplo.com",
+        "type": "community"
+      }
+    ]
+  },
+  "assessment": {
+    "type": "practical",
+    "description": "Avaliação baseada na conclusão dos exercícios práticos",
+    "criteria": [
+      "Conclusão dos exercícios obrigatórios",
+      "Funcionamento correto do projeto final",
+      "Aplicação das melhores práticas",
+      "Participação nas discussões"
+    ],
+    "passing_score": 70
+  },
+  "feedback": {
+    "methods": [
+      "Formulário de avaliação online",
+      "Discussão em grupo ao final",
+      "Avaliação individual dos projetos"
+    ],
+    "questions": [
+      "O conteúdo atendeu às suas expectativas?",
+      "Os exercícios práticos foram adequados?",
+      "Que tópicos gostaria de ver em mais detalhes?",
+      "Recomendaria este workshop para colegas?"
+    ]
+  },
+  "follow_up": {
+    "next_steps": [
+      "Workshop Intermediário",
+      "Projetos práticos sugeridos",
+      "Comunidades para participar",
+      "Recursos para estudo contínuos"
+    ],
+    "support": {
+      "email": "suporte@exemplo.com",
+      "slack": "#workshop-support",
+      "office_hours": "Quintas-feiras, 14:00-16:00"
+    }
+  }
+}
